@@ -4,4 +4,4 @@ from produk.models import Kategori
 class KategoriSerializer(serializers.ModelSerializer):
     class Meta:
         model = Kategori
-        fields = ('name',)
+        fields = ('id', 'name',)
